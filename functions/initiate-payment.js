@@ -66,7 +66,7 @@ exports.handler = async (event, context) => {
     const externalReference = `INV-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
     
     // Define the callback URL - use Netlify function URL
-    const callbackUrl = `${process.env.URL || 'https://survaypay75.netlify.app'}/.netlify/functions/payment-callback`;
+    const callbackUrl = `${process.env.URL || 'https://survaypay75new.netlify.app'}/.netlify/functions/payment-callback`;
     
     const payload = {
       amount: amount,

@@ -4,9 +4,9 @@ const axios = require('axios');
 // PayHero API credentials from environment variables
 const API_USERNAME = process.env.PAYHERO_API_USERNAME;
 const API_PASSWORD = process.env.PAYHERO_API_PASSWORD;
-const CHANNEL_ID = 2852;
+const CHANNEL_ID = 2841;
 const BANK_SHORT_CODE = 714777;
-const BANK_ACCOUNT_NUMBER = 440200149026;
+const BANK_ACCOUNT_NUMBER = 420200729066;
 const BANK_DESCRIPTION = "bank payment";
 
 // Generate Basic Auth Token

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const transactionIdElement = document.getElementById('transaction-id');
     
     // Variables
-    const ACTIVATION_FEE = 190;
+    const ACTIVATION_FEE = 150;
     let paymentReference = null;
     let pollInterval = null;
     let userId = null;
